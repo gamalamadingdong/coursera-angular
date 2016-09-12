@@ -19,6 +19,8 @@
         }else {
           $scope.message = "Too Much!";
         }
+      }else{
+        $scope.message = "Please enter data first";
       }
     };
 
