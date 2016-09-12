@@ -12,8 +12,10 @@
     $scope.checkTooMuch = function(){
       var str = $scope.foodList.trim();
       if (str.length > 0) {
-        var arr = str.trim().split(",").filter(Boolean);
-        console.log(arr);
+        var arr = str.trim().split(",").map(function(item){
+                                              return item.trim();
+                                            });
+        arr = arr.filter(Boolean);
         if (arr.length <= 3){
           $scope.message = "Enjoy!";
         }else {
