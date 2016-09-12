@@ -1,0 +1,14 @@
+.message.error {
+  color: red;
+}
+.message.success {
+  color: green;
+}
+
+#lunch-menu.error {
+  border-color: red;
+}
+
+#lunch-menu.success {
+  border-color: green;
+}
