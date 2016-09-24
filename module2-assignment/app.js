@@ -30,7 +30,8 @@ function ShoppingListCheckOffService() {
   var service = this;
 
   // List of shopping items
-  var toBuy = [{"itemName": "cookies", "quantity": 10},{"itemName": "pizza", "quantity": 5},{"itemName": "ice cream", "quantity": 20},{"itemName": "soda", "quantity": 100}];
+  var toBuy = [{"itemName": "cookies", "quantity": 10},{"itemName": "pizza", "quantity": 5},{"itemName": "ice cream", "quantity": 20},{"itemName": "soda", "quantity": 100},{"itemName": "cake", "quantity": 3},{"itemName": "bananas", "quantity": 25},{"itemName": "cherries", "quantity": 12}];
+
   var bought = [];
 
   service.markBought = function(itemIndex){
