@@ -34,9 +34,6 @@ function ShoppingListCheckOffService() {
   var bought = [];
 
   service.markBought = function(itemIndex){
-    console.log(itemIndex);
-    console.log(toBuy);
-    console.log(bought);
     bought.push(toBuy[itemIndex]);
     toBuy.splice(itemIndex, 1);
   };
